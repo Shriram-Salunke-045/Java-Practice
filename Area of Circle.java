@@ -9,7 +9,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Radius of Circle: ");
-        float r = sc.nextInt();
+        float r = sc.nextFloat();
         float area = (float) ((3.1428571429) * r * r);
         System.out.print("Area of Circle = "+ area + " Square-unit");
     }
