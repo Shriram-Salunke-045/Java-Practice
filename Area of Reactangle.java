@@ -9,9 +9,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Length: ");
-        float a = sc.nextInt();
+        float a = sc.nextFloat();
         System.out.print("Enter the Width: ");
-        float b = sc.nextInt();
+        float b = sc.nextFloat();
         float area = a * b;
         System.out.print("Area of Triangle = "+ area + " Square-unit");
 
