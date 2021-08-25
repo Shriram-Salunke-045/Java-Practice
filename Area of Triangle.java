@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the length: ");
+        System.out.print("Enter the Height: ");
         float a = sc.nextInt();
-        System.out.print("Enter the breath: ");
+        System.out.print("Enter the Base: ");
         float b = sc.nextInt();
         float area = (float) ((0.5) * a * b);
         System.out.print("Area of Triangle = "+ area + " Square-unit");
