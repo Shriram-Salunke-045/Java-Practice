@@ -2,6 +2,7 @@ class  A{
 
     int a; String name;
 
+    // Constructor of class A
     A(){
         a=0;  name = "null";
     }
