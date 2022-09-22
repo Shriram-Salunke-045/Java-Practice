@@ -25,7 +25,7 @@ class ConstructorOverloading{
         Ram r3 = new Ram(25.24,"Shriram");
 
         System.out.println(r.a+" "+r.b+" "+r.c);
-        System.out.println(r2.a+" "+r2.b+" "+r2.c);
-        System.out.println(r3.a+" "+r3.b+" "+r3.c);
+        System.out.println(r2.a);
+        System.out.println(r3.b+" "+r3.c);
     }
 }
