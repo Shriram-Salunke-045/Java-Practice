@@ -4,7 +4,7 @@ import java.util.*;
 public class Main
 {
 	public static void main(String[] args) {
-		System.out.print("Reversed Array :");
+		System.out.print("Sorted array Array :");
 		int arr[] = new int[] {9,6,1,10,5,};
 		
 		Arrays.sort(arr);
